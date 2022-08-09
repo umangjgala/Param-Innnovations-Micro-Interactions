@@ -1,0 +1,100 @@
+.firstBubbleAni {
+    transition: transform .2s;
+    transform: scale(1.5);
+}   
+
+.secondBubbleAni {
+    transition: transform .2s;
+    transform: scale(1.4);
+}   
+
+.thirdBubbleAni {
+    transition: transform .2s;
+    transform: scale(1.06);
+}   
+
+.fourthBubbleAni {
+    transition: transform .2s;
+    transform: scale(1.1);
+}  
+
+.fifthBubbleAni {
+    transition: transform .2s;
+    transform: scale(1.1);
+}
+
+.rightHandAni {
+    transform: rotate(-5deg);
+    transform-origin: center;
+}
+
+.leftHandAni {
+    transform: rotate(5deg);
+    transform-origin: center;
+}
+
+.lineAni {
+    transform: rotate(30deg);
+    transform-origin: center;
+}
+
+.container {
+    display: flex;
+    padding: 20px;
+}
+
+.text  {
+    background-color: #A7D3DF;
+    height: 30px;
+    width: 300px;
+    margin: 0%;
+    padding: 0%;
+}
+
+.svg1 {
+    padding: 0;
+    margin: 0;
+    display: flex;
+    flex-direction: column;
+}
+
+.svg2 {
+    width: 400px;
+    height: 400px;
+    align-items: center;
+    text-align: center;
+}
+
+.svg3 {
+    width: 400px;
+    height: 400px;
+    align-items: center;
+    text-align: center;
+}
+
+.divs {
+    margin: 30px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+.section {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+.result {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+.svg4 {
+    display: none;
+}
+
+.svgView {
+   display: block;
+}
